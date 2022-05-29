@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&family=Kanit:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+  
+   font-family: 'IBM Plex Serif', serif;
+
+}
+.container{
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    align-items:center; 
+    }
+
+header{
+    
+    background-color: #FFEF82;
+    font-size: 16px;
+}
+* a{
+    text-decoration: none;
+    color: black;
+}
+a:hover { 
+    background-color: #FEEC80;
+       
+    
+}
+
+      
+.barranav{
+    background-color: #82954B;
+    min-height: 30px;
+    padding: 15px;
+    line-height: 20px;
+  
+}
+
+
+
+.FlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+    background-color: #EFD345;
+    height: 80vh;
+    overflow: auto;
+    flex-direction: row;
+}
+
+.FlexContainer div {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background-color: lightblue;
+}
+
+
+
+
+img{
+    width: 200px;
+    height:  250px;
+    border: 2px, solid black;
+}
+
+
+
+footer{
+    min-height: 80px;
+    background-color: #82954B;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    color: black; 
+    padding: 15px;
+    
+    
+}
+footer a{
+    text-decoration: none;
+     color:  black;
+     margin: 50px;
+     border-radius: 5px;
+    
+            
+ }
+ div > img:hover{
+    transform: scale(1.2,1.5);
+    -webkit-transform: scale(1.2,1.5);
+    -ms-transform: scale(1.2,1.5);
+
+}
+
+h1{
+    text-align: center;
+    font-size: 36px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  li {
+    margin: 0 .75rem;
+  }
+
+div :nth-last-child(4nd){
+
+    padding: 20px 20px;
+    align-self: center;
+    background-color: #82954B;
+    margin: 10px;
+    color: black;
+}
+.iframe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-end;
+    height: 80vh;
+    overflow: auto;
+    flex-direction: row-reverse;
+}
+
+.iframe div{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+
+
+@media screen and (max-width: 640px) {
+
+    .menu {
+    
+    background: blue;
+    
+    }
+    
+    }
+
+
+@media screen and (min-width: 640px) and (max-width: 1280px) {
+
+        .menu { background: red;
+        
+        }
+        
+        }
+        
+@media screen and (min-width: 1280px) {
+
+            .menu { background: green;
+            
+            }
+            
+            }        */
